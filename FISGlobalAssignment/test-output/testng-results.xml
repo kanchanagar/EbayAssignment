@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-26T18:54:41 IST" name="Default suite" finished-at="2025-07-26T18:55:30 IST" duration-ms="49496">
+    <groups>
+      <group name="Smoke">
+        <method signature="ebayImplementation.EbaySearchBook()[pri:2, instance:EbayImplementation.ebayImplementation@5876a9af]" name="EbaySearchBook" class="EbayImplementation.ebayImplementation"/>
+        <method signature="ebayImplementation.LaunchingtheURL()[pri:1, instance:EbayImplementation.ebayImplementation@5876a9af]" name="LaunchingtheURL" class="EbayImplementation.ebayImplementation"/>
+        <method signature="ebayImplementation.SelectingthebookandAddToCartandValidate()[pri:3, instance:EbayImplementation.ebayImplementation@5876a9af]" name="SelectingthebookandAddToCartandValidate" class="EbayImplementation.ebayImplementation"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-07-26T18:54:41 IST" name="Default test" finished-at="2025-07-26T18:55:30 IST" duration-ms="49496">
+      <class name="EbayImplementation.ebayImplementation">
+        <test-method signature="LaunchingtheURL()[pri:1, instance:EbayImplementation.ebayImplementation@5876a9af]" started-at="2025-07-26T18:54:41 IST" name="LaunchingtheURL" finished-at="2025-07-26T18:54:52 IST" duration-ms="11762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchingtheURL -->
+        <test-method signature="EbaySearchBook()[pri:2, instance:EbayImplementation.ebayImplementation@5876a9af]" started-at="2025-07-26T18:54:52 IST" name="EbaySearchBook" finished-at="2025-07-26T18:55:05 IST" duration-ms="12509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EbaySearchBook -->
+        <test-method signature="SelectingthebookandAddToCartandValidate()[pri:3, instance:EbayImplementation.ebayImplementation@5876a9af]" started-at="2025-07-26T18:55:05 IST" name="SelectingthebookandAddToCartandValidate" finished-at="2025-07-26T18:55:30 IST" duration-ms="25071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectingthebookandAddToCartandValidate -->
+      </class> <!-- EbayImplementation.ebayImplementation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
